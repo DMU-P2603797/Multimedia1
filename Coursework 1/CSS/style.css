@@ -1,0 +1,109 @@
+body {
+  background-color: yellow;
+}
+/* I changed the background color of both the pages to yellow. This is obviously to do with the fact that yellow is a very popular color associated with the Simpsons */
+
+h1 {
+  color: red;
+  /* I put the color of the header red as this is the color of the logo of the Simpsons*/
+  border-style: solid;
+  /* In my opinion, for the heading I think there needs to be a big border going round it so it makes the heading stand out and will catch the user's eye. */
+  border-width: 5px;
+  /* I Put a border width that took up the majority of the page but not all of it. */
+  border-color: black;
+  text-align: center;
+  /* By putting text align: center; this puts the text in the centre of the screen - which makes the text look more appealing */
+  font-family: Lucida Handwriting;
+  /* Changing the font family changes the style of the text. I changed the font style of my heading to one that is near enough matches the logo of the Simpsons. */
+  font-size: 4em;
+}
+
+.links{
+  /* by putting a dot, followed by the name of the class element, and then curly braces - this enables me to change the layout of that particular element rather than the same for every 'a' element. */
+  color: darkblue;
+text-align: center;
+  font-family: verdana;
+  /* I have changed the font family for the link. This is because I feel Verdana is quite a clear font and it is very easy off the eye. */
+  padding-left: 30%;
+  padding-right: 30%;
+  /* I put a bit of padding in to create a bit more space within the element. This makes it look a lot more neat and structured */
+  background-color: red;
+  border-style: solid;
+  border-width: 5px;
+  /* I have set the border width to 5px. This will set the width of 5px for all four bordes - left, right, top, bottom. */
+}
+h2 {
+  text-align: center;
+  font-family: verdana;
+  font-size: 2em;
+  color: red;
+  }
+
+p {
+text-align: center;
+font-family: verdana;
+/* I kept the same font family as h1 and h2, as it just gives it a consistent layout, and makes it far more simple to read */
+font-size: 1.5em;
+color: darkblue;
+/* I chose the color darkblue, for my synopsis as blue is another color theme of the simpsons i.e. Marge's hair color*/
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  /* I set the height and width to 100%, so it would fit the whole section of the page. A movie trailer as well should be wide - screen, so this is why I have made it big */.
+}
+
+footer {
+  text-align: center;
+  font-size: 1em;
+}
+
+.homelink {
+  color: darkblue;
+text-align: center;
+  font-family: verdana;
+  padding-left: 30%;
+  padding-right: 30%;
+  font-size: 100px;
+  background-color: red;
+  border-style: solid;
+  border-width: 5px;
+  /* I did the same CSS for my two links as I wanted to keep the structure the same*/
+}
+
+.Dan {
+  margin:5px 5px;
+  width: 20%;
+  /* I used margins to create space around each element. I did 5px left and right, and 5px top and bottom. This spaced out things really nicely so the photo of one of the cast members was not so close to the border above.*/
+  float: left;
+  /* I used the float element so I can position my image appropriately with the text next to it in a container */
+}
+
+section {
+  content: "Dan Castellanetta is an icon in the American television industry. The man himself is the voice of the most popular cartoon character of all time ‘Homer Simpson’ amongst voicing other characters in The Simpsons – such as Krusty the Clown, Barney Gumble, Grandpa Simpson, Groundskeeper Willie, and plenty more! Below, you can listen to CBS News’s interview with Dan, explaining about how excited he is for the release of the film, and how long it has been in the making.";
+font-size: 20px;
+color: darkblue;
+
+}
+
+  .Nancy{
+    margin: 5px 5px;
+    width: 20%;
+    float: left;
+    /* I put the same CSS on this image as the one above. I did this again, to give the page a consistent layout*/
+      }
+
+.section2 {
+margin-top: 8%;
+}
+
+.audiosecond {
+  position: absolute;
+  left: 50%;
+}
+
+.logo {
+  width: 20%;
+  float: left;
+}
